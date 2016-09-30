@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+}
+ #reportdiv {
+	position: fixed; top: 100px; left: 672px;	
+}
+
+#container {
+    opacity:1;
+	margin-left:auto;
+    margin-right:auto;
+	min-width: 900px;
+    
+}
+ 
+																								/*changes 9/29-30/2016 : white background, floated right*/
+
+}
+.banner {
+	font-family: Helvetica, Arial, sans-serif;
+	/*position: fixed;*/
+    margin: 0;
+    width:99%;
+    height: 180px;
+	background-color: white;/*#1c371d;*/
+    /*background-image:url(http://www.punmiris.com/himg/o.12796.jpg);*/  
+	color: #356037;
+    text-align:center;
+	padding: 20px 10px 10px 10px;
+	text-decoration: none;
+}
+
+header {
+	padding-top:15px;
+}
+
+.innerHeaderDiv {
+    height:140px;
+    width:140px;
+    background-image:url(http://reathdesign.com/wp-content/uploads/2012/05/BP10381_1.jpg);
+    padding:2px 2px 2px 2px;
+    margin:0px 70px 10px 25px;
+    float:left;
+    border-radius:70px;
+}
+
+.innerHeaderDiv:hover {
+    opacity:1;
+    border:2px solid white;
+    padding:0 0 0 0;
+   
+}
+
+.centerHeaderDiv {
+    height:140px;
+    width:50%;
+    background-color:white;/*#082208;*/
+    border:1px solid white;
+    color:#181b18;/*#cfcccc;*/
+    padding:10px 2px 2px 2px;
+    margin:0px 10px 0px 78px;
+    float:left;
+    text-align:center;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 270%;
+    font-style:italic;
+   /*box-shadow: 2px 2px 2px #888888; */
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+nav {
+  /*position:fixed;*/
+	width: 99%;
+    text-align:center;
+	background-color:white; /*#cfcccc;*/
+	padding: 10px 10px 10px 10px;
+	margin-top: 0px;
+    color:#181b18;/*#20416c;*/
+	clear:both;
+}
+
+#mainContentDiv {
+    position:relative;
+    width: 50%;   
+    /* height: 800px;*/
+    margin-right: 2px;
+    margin-left:2px;
+    margin-top:2px;
+    margin-bottom: 2px;
+    background-color: white/* #989a80*/;
+    /*background-image:url();*/
+    text-align:center;
+    padding: 20px 5px 5px 10px;
+    float:right;
+    color:#181b18;
+}
+
+#leftSideBar {
+    position:relative;
+    background-color: white;/*#cfcfcf;*/
+    text-align:center;
+	width: 20%;
+    /* height: 800px;*/
+	color: #356037;
+	float: left;
+	padding: 20px;
+	margin: 2px 2px 2px 2px;
+}
+
+#rightSideBar {
+    position: relative;
+    background-color:white; /*#cfcfcf;*/
+    text-align: center;
+    width: 22%;
+   /* height: 800px;*/
+    color: #356037;
+    float: right;
+    padding: 20px;
+    margin: 2px 2px 7px 2px;
+}
+
+.inLeftSideDiv {
+    height:200px;
+    width: 95%;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    background-color:white;
+    display:inline-block;
+}
+
+.inMainDiv {
+    height:200px;
+    width: 85%;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    background-color:/*#cfcfcf*/;
+    display:inline-block;
+}
+
+.inRightSideDiv {
+    height:200px;
+    width: 85%;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    background-color:white;
+    display:inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+a:hover {
+    
+    color:#356037;
+    
+}
+
+li a {
+	color: #181b18;
+}
+/*article a {
+	color: #20416c;
+}
+	*/
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+	/*font-variant: small-caps;*/
+	font-weight: bold;
+}
+
+/*section {
+	background-color: #bbbbbb;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+article {
+	background-color: white;
+	margin-top: 5px;
+	padding: 10px 15px;
+}
+
+main {
+	width: 640px;
+	float: left;
+	margin-bottom: 10px;
+}*/
+
+/*aside {
+	position:relative;
+    background-color: #cfcfcf;
+    text-align:center;
+	width: 22%;
+    height:800px;
+	color: #356037;
+	float: left;
+	padding: 20px;
+	margin: 2px 2px 2px 2px;
+    
+}*/
+
+footer {
+	clear: both;
+	width: 99%;
+	height: 40px;
+	background-color: white;/*#1c371d;*/
+	color: #181b18;
+	padding: 10px 10px 10px 10px;
+    margin: 2px 2px 2px 2px;
+}
+
+
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
